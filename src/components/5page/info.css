@@ -1,28 +1,48 @@
+/** @format */
+
 .card-container {
   height: 80vh;
   width: 100vw;
-    text-align: center;
-    padding-top: 40px;
-    background-color: #f0f0f0;
-    padding: 20px;
-  }
-  
-  .card-header {
-    margin-bottom: 20px;
-  }
-  .start-num{
-    border: 20px solid rgba(217, 114, 235, 0.93);
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .connect-button {
-    background-color:white;
-    color:black;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    align-items: center;
-  }
+  text-align: center;
+  padding-top: 40px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
 
+.card-header {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-header h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.start-num {
+  padding: 1rem;
+  max-width: 50vw;
+  margin: auto;
+  font-size: 30px;
+  color: pink;
+  border: 25px solid;
+  border-image: linear-gradient(90deg, #cdfbf2, pink) 1;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.connect-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.num span {
+  font-weight: bold;
+  color: #9333ea !important;
+}

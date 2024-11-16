@@ -1,8 +1,10 @@
+/** @format */
 
-import './home.css'
-import SparklesText from '../ui/sparkles-text';
-import NumberTicker from '../ui/number-ticker';
-import Index from '../herotojoin';
+import "./home.css";
+import SparklesText from "../ui/sparkles-text";
+import NumberTicker from "../ui/number-ticker";
+import Index from "../herotojoin";
+// import PartnerMarquee from "../PartnerMarquee";
 const Partner = () => {
   return (
     <>
@@ -68,40 +70,34 @@ const Partner = () => {
             <span>Join 4,000+ companies already growing</span>
           </h2>
           <div>
-         <img src="public\images\chorus.png" alt="" />
+            <img src='public\images\chorus.png' alt='' />
           </div>
           <div>
-         <img src="public\images\tcs.png" alt="" />
+            <img src='public\images\tcs.png' alt='' />
           </div>
           <div>
-         <img src="public\images\reddit.png" alt="" />
+            <img src='public\images\reddit.png' alt='' />
           </div>
           <div>
-         <img src="public\images\pantera.png" alt="" />
+            <img src='public\images\pantera.png' alt='' />
           </div>
+
         </div>
       </section>
 
-
-
-      <section >
-        
-        <div className='cards-container'>      
-        <Index/>
-        </div> 
-
+      <section>
+        <div className='cards-container'>
+          <Index />
+        </div>
       </section>
 
-
-
-      
       <section className='globe'>
         <div className='text-content'>
           <h1>Unleash the full power of data</h1>
           <p>
-            We guide global businesses through the challenges of developing purposeful
-            technology that addresses their needs and advances their growth.
-            We have established offices in India, the UAE, and the USA.
+            We guide global businesses through the challenges of developing
+            purposeful technology that addresses their needs and advances their
+            growth. We have established offices in India, the UAE, and the USA.
           </p>
           <div className='stats'>
             <div>
@@ -139,9 +135,7 @@ const Partner = () => {
           <img src='public\tearth.png' alt='Globe' />
         </div>
       </section>
-
     </>
-
   );
 };
 export default Partner;

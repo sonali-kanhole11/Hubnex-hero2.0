@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './info.css'
 import NumberTicker from '../ui/number-ticker';
 
@@ -13,25 +13,25 @@ const Card = () => {
         <br />
       </div>
       <div className='start-num'>
-          <div className='num-first'>
+          <div className='num-first num'>
           <span >
             <NumberTicker value={40} />+
           </span>
           <p>Integrations</p>
           </div>
-          <div className='num-second'>
+          <div className='num-second num'>
           <span>
             <NumberTicker value={40} />+
           </span>
           <p>Integrations</p>
           </div>
-          <div className=' num-third'>
+          <div className=' num-third num'>
           <span >
             <NumberTicker value={40} />+
           </span>
           <p>Integrations</p>
         </div>
-        <div className=' num-fourth'>
+        <div className=' num-fourth num'>
           <span >
             <NumberTicker value={40} />+
           </span>

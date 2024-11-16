@@ -6,37 +6,24 @@ import './heromarquee.css'
 
 const reviews = [
   {
-    name: "Operating System",
-    img: "https://cdn.pixabay.com/photo/2016/03/31/15/16/computer-1293125_1280.png",
+    img: "public/images/chorus.png",
   },
   {
-    name: "Cloud Computing",
-    img: "https://cdn.pixabay.com/photo/2018/04/10/17/44/cloud-3308170_1280.png",
+    img: "public/images/tcs.png",
   },
   {
-    name: "Connectivity",
-    img: "https://cdn.pixabay.com/photo/2016/03/30/13/24/wifi-1290667_1280.png",
+    img: "public/images/reddit.png",
   },
   {
-    name: "Protocols and standards",
-    img: "https://cdn.pixabay.com/photo/2022/01/11/21/17/icon-6931513_1280.png",
+    img: "public/images/pantera.png",
   },
   {
-    name: "Edge Computing",
-    img: "https://cdn.pixabay.com/photo/2022/02/21/07/44/cloud-7025999_1280.png",
-  },
-  {
-    name: "data analytics",
-    img: "https://cdn.pixabay.com/photo/2017/02/01/11/50/clones-2029896_1280.png",
-  },
-  {
-    name: "development",
-    img: "https://cdn.pixabay.com/photo/2022/06/16/11/14/web-development-7265717_1280.png",
+    img: "public/images/chorus.pn/",
   },
 ];
 
 const firstRow = reviews.slice(0, reviews.length / 2);
-const secondRow = reviews.slice(reviews.length / 2);
+// const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({ img, name }: { img: string; name: string }) => {
   return (
@@ -67,14 +54,14 @@ function PartnerMarquee() {
       {/* Marquee content with shadow */}
       <Marquee pauseOnHover className="[--duration:20s] first-iterate">
         {firstRow.map((review) => (
-          <ReviewCard key={review.name} {...review} />
+          <ReviewCard key={review.img} {...review} />
         ))}
       </Marquee>
-      <Marquee reverse pauseOnHover className="[--duration:10s] second-iterate">
+      {/* <Marquee reverse pauseOnHover className="[--duration:10s] second-iterate">
         {secondRow.map((review) => (
-          <ReviewCard key={review.name} {...review} />
+          <ReviewCard key={review.img} {...review} />
         ))}
-      </Marquee>
+      </Marquee> */}
 
       {/* Shadow effect on the left and right */}
       <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>

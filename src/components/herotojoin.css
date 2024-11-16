@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,4 +33,68 @@ h1 {
 }
 .card-image-second {
     height: 150px;
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    min-height: 140vh;
+}
+
+h1 {
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-title {
+    margin-top: 1rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+}
+.card-body{
+    background-color: black;
+    border-radius: 5px;
+    min-width: 20.5vw;
+    margin-top: 1rem;
+}
+.card-body p{
+    font-size: 13px;
+    /* background-color: azure; */
+    text-align: left;
+}
+.cardblock2, .cardblock3 {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.card-image {
+    height: 150px;
+}
+.main-full-card1{
+    max-height: 105vh;
+    background-color: black;
+}
+.main-full-card{
+    background-color: black;
+}
+.card-body:hover{
+    z-index: 100;
+    transform: translateY(-38px);
+    transition: 0.3s ease-in-out; /* Move up slightly on hover */
+}
+.main-full-card5{
+    margin-top: -1rem;
+    background-color: black;
+    /* max-height: 32.5vh; */
+
 }
