@@ -1,0 +1,30 @@
+
+.text-center{
+    padding-top: 40px;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    background: linear-gradient(
+    to top right,
+    #000912,
+    #073f98,
+    #459cf4
+  );
+      
+}
+.button-view{
+    
+    background-color:#007bff;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.study-heading{
+
+        font-size: 55px;
+        margin-bottom: 20px;
+      justify-content: center;
+}

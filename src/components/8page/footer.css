@@ -1,0 +1,54 @@
+/** @format */
+.main-contact {
+  margin-top: 2rem;
+  width: 100vw;
+}
+.Contact-upper {
+  background: linear-gradient(to right, #000000, #202020, #414141, #5d5c5c);
+  max-width: 80vw;
+  margin: 0 auto;
+  height: 160px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.Contact-upper h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.connect {
+  background-color: transparent;
+  margin-top: 1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.Contact-lower {
+  max-width: 80vw;
+  margin: 0 auto;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.Contact-lower h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.contactt {
+  background-color: black;
+  color: white;
+  border-radius: 26px;
+  padding: 6px 12px;
+  margin-right: 1rem;
+}
+.horizontal-linee {
+  width: 80vw;
+  margin: auto;
+  border: none;
+  border-top: 1px solid #929292;
+}

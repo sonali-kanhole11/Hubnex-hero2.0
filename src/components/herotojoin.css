@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+
+.sectionsecond {
+    height: 729px;
+}
+
+h1 {
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-title-second {
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+.cardblock2, .cardblock3 {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.card-image-second {
+    height: 150px;
+}

@@ -1,0 +1,59 @@
+.slider-main-heading{
+  margin-top: 7rem;
+      text-align: center;
+      margin-bottom: -2rem;
+  }
+  .slider-main-heading p{
+      font-size: 1rem;
+      color: blue;
+  }
+  .slider-main-heading h1{
+      font-size: 1.8rem;
+      margin-top: -1rem;
+      font-weight: bold;
+  }
+  .body{
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  
+  .slider-container {
+      display: flex;
+      overflow-x: auto; /* Enables horizontal scroll */
+      max-width: 70vw;
+      width: 100%;
+      scroll-behavior: smooth;
+      cursor: grab;
+      margin: 5rem auto;
+      scrollbar-width: none; 
+      scroll-snap-type: x mandatory;            /*vvvvvvvvimportant*/
+    }
+    .slider-container::-webkit-scrollbar {
+      display: none; /* Hides scrollbar on Chrome, Safari, etc. */
+    }
+    
+    .slider-item {
+      
+      min-width: 100%; /* Ensures each item is exactly 50% of the viewport */
+      max-width: 100%; /* Added to enforce exact width */
+      height: 400px;
+      margin: 0 auto; /* Centers the item in the slider */
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      user-select: none;
+      scroll-snap-align: center;             /*vvvvvvvvimportant*/
+    }
+    
+    .slider-item img {
+      width: 700px; /* Adjusted to better fit inside the container */
+      height: auto;
+    }
+    .right h1{
+      margin-bottom: -1rem;
+      font-size: 36px;
+    }
+    

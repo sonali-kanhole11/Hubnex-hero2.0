@@ -1,0 +1,28 @@
+.card-container {
+  height: 80vh;
+  width: 100vw;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .card-header {
+    margin-bottom: 20px;
+  }
+  .start-num{
+    border: 20px solid rgba(217, 114, 235, 0.93);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .connect-button {
+    background-color:white;
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+  }
+

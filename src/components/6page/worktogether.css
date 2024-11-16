@@ -1,0 +1,54 @@
+.newsletter-container{
+    background: linear-gradient(
+  to right, 
+  #5e15cb,       /* Purple on the left */
+  #746bd1c3,       /* Pinkish in the middle */
+  #9f74eec9,       /* Light pink */
+  #a84cd287        /* Very faint pink on the right */
+);
+    height: 7rem;
+    padding: 5px 10px;
+}
+.newsletter-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.newsletter-header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width:500px ;
+    /* background-color: aqua; */
+    margin-top: 10px;
+    margin-left: 5rem;
+
+}
+.inner-left img{
+    margin-top: 5px;
+    width: 30px;
+}
+.inner-right {
+    margin-left: 1rem;
+}
+
+.inner-right p{
+    margin-bottom: -0.1rem;
+    font-size: 16px;
+    color: white;
+   
+}
+.inner-right h1{
+    font-size: 25px;
+    color: white;
+
+}
+
+.check{
+    background-color: #8d31e3 !important;
+    border-radius: 3px;
+    color: white;
+    padding: 6px 12px;
+    margin-right: 6rem;
+}

@@ -1,0 +1,47 @@
+
+
+.earth{
+  height: 100vh;
+  width: 100vw;
+  padding-top: 40px;
+  background-image: url(image.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.earth-heading{
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.earth-cont{
+  width: 35%;
+  height: 40%;
+  margin-top: 80px;
+  margin-left: 30px;
+  color: rgb(12, 2, 2);
+}
+
+ .counter-container {
+  margin-left: 30px;
+   display: flex;
+ }
+ 
+ .counter-item {
+   text-align: center;
+ }
+ 
+ .counter-value {
+   font-size: 24px;
+   font-weight: bold;
+   color: #673AB7;
+ }
+ 
+ .counter-label {
+   font-size: 14px;
+   color: #673AB7; /* Purple color */
+ }
+ .start-number{
+  color: #673AB7;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: start;
+ }
