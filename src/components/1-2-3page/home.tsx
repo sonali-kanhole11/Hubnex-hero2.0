@@ -5,6 +5,7 @@ import SparklesText from "../ui/sparkles-text";
 import NumberTicker from "../ui/number-ticker";
 import Index from "../herotojoin";
 // import PartnerMarquee from "../PartnerMarquee";
+import HeroMarquee from "../1-2-3page/HeroMarquee"
 const Partner = () => {
   return (
     <>
@@ -65,10 +66,11 @@ const Partner = () => {
         </div>
       </section>
       <section className='partner-technologies'>
-        <div className='partner-technologies-container'>
-          <h2 className='technologies-title'>
-            <span>Join 4,000+ companies already growing</span>
+      <h2 className='technologies-title'>
+           
           </h2>
+        {/* <div className='partner-technologies-container'>
+          
           <div>
             <img src='public\images\chorus.png' alt='' />
           </div>
@@ -82,7 +84,8 @@ const Partner = () => {
             <img src='public\images\pantera.png' alt='' />
           </div>
 
-        </div>
+        </div> */}
+        <HeroMarquee></HeroMarquee>
       </section>
 
       <section>
